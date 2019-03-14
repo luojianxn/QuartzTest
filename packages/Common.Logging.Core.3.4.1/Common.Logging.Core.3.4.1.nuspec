@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Common.Logging.Core</id>
+    <version>3.4.1</version>
+    <title>Common.Logging.Core</title>
+    <authors>Aleksandar Seovic, Mark Pollack, Erich Eichinger, Stephen Bohlen</authors>
+    <owners>Aleksandar Seovic, Mark Pollack, Erich Eichinger, Stephen Bohlen</owners>
+    <projectUrl>http://net-commons.github.io/common-logging/</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/net-commons/common-logging/master/nuget-graphics/common-logging-icon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Common.Logging.Core contains the portable (PCL) implementation of the Common.Logging low-level abstractions common to all other Common.Logging packages.</description>
+    <summary />
+    <language>en-US</language>
+    <tags>PCL Common.Logging.Portable Common.Logging.Core logging log Common.Logging</tags>
+    <dependencies>
+      <group targetFramework="Unsupported0.0">
+        <dependency id="Microsoft.CSharp" version="4.0.1" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
